@@ -4,7 +4,7 @@ import React from 'react';
 import ExampleSelector from './pages/dispatch-selector/ExampleSelector';
 import ExampleDispatch from './pages/dispatch-selector/ExampleDispatch';
 
-//connect
+//connect()
 import MapState from './pages/connect/MapState';
 import MapDispatch from './pages/connect/MapDispatch';
 
