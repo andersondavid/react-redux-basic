@@ -19,6 +19,7 @@ function App() {
           <ExampleSelector />
           <ExampleDispatch />
         </div>
+        <hr/>
         <div>
           <h2>connect()</h2>
           <p>Exemplo usando a função connect() para conectar os components em formato de classe ao store</p>
