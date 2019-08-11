@@ -1,24 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+//react with hooks
+import ExampleSelector from './pages/dispatch-selector/ExampleSelector';
+import ExampleDispatch from './pages/dispatch-selector/ExampleDispatch';
+
+//connect
+import MapState from './pages/connect/MapState';
+import MapDispatch from './pages/connect/MapDispatch';
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+        <div>
+          <h2>useDispatch e useSelector</h2>
+          <p>Exemplo usando useDispatch e useSelector e React Hooks.Usado quando o componente está em formato de função</p>
+          <ExampleSelector />
+          <ExampleDispatch />
+        </div>
+        <div>
+          <h2>connect()</h2>
+          <p>Exemplo usando a função connect() para conectar os components em formato de classe ao store</p>
+          <MapState />
+          <MapDispatch />
+        </div>
+      </div>
     </div>
   );
 }
