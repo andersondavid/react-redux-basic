@@ -20,7 +20,9 @@ Ao utilizar components em forma de classe, utilizei a função `connect()` que r
 ### __Referencias__
 
 [Redux](https://redux.js.org/)
+
 [React Redux](https://react-redux.js.org/)
+
 [ReactJS](https://pt-br.reactjs.org/)
 
 
