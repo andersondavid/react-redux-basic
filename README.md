@@ -3,6 +3,10 @@ __Repósitorio direcionado a quem estar começando a usar Redux em sua aplicaç�
 
 Alguns exemplos da conexão de uma aplicação ReactJS (podendo tambem se aplicar a React Native) com uma `store` do Redux.
 
+É importante notar que o não estou apenas adicionando um item em um simples state, pois isso só seria possivel se se eu fizesse toda a aplicação em um unico componente ja que o state de um componente é particular dele.
+
+Cada input e cada lista é um elemento difenrente conectados ao um unico store compartilhando um state global em toda a aplicação.
+
 ### useDispatch e useSelector
 
 O primeiro exemplo usa `useDispatch` e `useSelector` importados do `react-redux`.  
